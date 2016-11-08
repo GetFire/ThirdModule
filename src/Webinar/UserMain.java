@@ -1,6 +1,10 @@
 package Webinar;
 
 public class UserMain {
-    User user = new User();
+    public static void main(String[] args) {
+        User user = new User();
+
+
+    }
 
 }
