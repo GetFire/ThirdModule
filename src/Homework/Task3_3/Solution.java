@@ -21,7 +21,6 @@ public class Solution {
         Student st2 = new Student("Пупкин", course);
 
 
-
         //Объекты CollegeStudent
         //----------------------------------------------------------------------------------
         CollegeStudent CS1 = new CollegeStudent("Евгений", "Кузьмин", 25);
@@ -29,10 +28,11 @@ public class Solution {
         CollegeStudent CS3 = new CollegeStudent("Кузьмин", course);
 
 
-
         //Объекты SpecialStudent
         //----------------------------------------------------------------------------------
-
+        SpecialStudent SS1 = new SpecialStudent("Петр", "Иванов", 7);
+        SpecialStudent SS2 = new SpecialStudent("Васильев",course);
+        SpecialStudent SS3 = new SpecialStudent(11233);
 
     }
 }
