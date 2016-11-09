@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Task3_1;
 
 public class Bird {
     int size;
