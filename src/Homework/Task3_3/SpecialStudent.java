@@ -2,8 +2,8 @@ package Homework.Task3_3;
 
 
 public class SpecialStudent extends CollegeStudent {
-    long secretKey;
-    String email;
+    private long secretKey;
+    private String email;
 
     public SpecialStudent(String firstName, String lastName, int group) {
         super(firstName, lastName, group);

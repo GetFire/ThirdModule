@@ -1,8 +1,8 @@
 package Homework.Task3_3;
 
 public class Student {
-    String firstName;
-    String lastName;
+    private String firstName;
+    private String lastName;
     int group;
     Course[]coursesTaken;
     int age;
