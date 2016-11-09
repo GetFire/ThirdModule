@@ -22,7 +22,7 @@ public class UserMain {
         System.out.println(user1.company);
         user1.name = "Eminem";
         System.out.println(user1.name);
-        user.id = 1001;
+        //user.id = 1001;
 
 
         user.sendEmail();
@@ -32,4 +32,4 @@ public class UserMain {
     }
 
 
-}
+
