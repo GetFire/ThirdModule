@@ -1,5 +1,6 @@
 package Homework.Task3_4;
 
+
 public class User {
     private String name;
     private int balance;
@@ -33,6 +34,14 @@ public class User {
         return comission;
     }
 
+    void companyNameLengt() {
+        System.out.println(getCompanyName().length());
+    }
+
+    void monthIncreaser(int addMonth) {
+        int Increase = getMonthsOfEmployment() + addMonth;
+        setMonthsOfEmployment(Increase);
+    }
 
 
     public String getName() {
