@@ -6,6 +6,6 @@ public class BirdTestDrive {
         bird.sing("walking");
         bird.sing("flying");
         bird.sing("singing");
-        bird.sing("bidr");
+        bird.sing("bird");
     }
 }
