@@ -3,9 +3,12 @@ package Homework.Task3_3;
 public class Student {
     private String firstName;
     private String lastName;
-    int group;
+    private int group;
     private Course[]coursesTaken;
-    int age;
+    private int age;
+
+    public Student() {
+    }
 
     public Student(String firstName, String lastName, int group) {
         this.firstName = firstName;
