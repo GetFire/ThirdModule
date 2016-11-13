@@ -31,7 +31,7 @@ public class Solution {
         //Объекты SpecialStudent
         //----------------------------------------------------------------------------------
         SpecialStudent SS1 = new SpecialStudent("Петр", "Иванов", 7);
-        SpecialStudent SS2 = new SpecialStudent("Васильев",course);
+        SpecialStudent SS2 = new SpecialStudent("Васильев", course);
         SpecialStudent SS3 = new SpecialStudent(11233);
 
     }
