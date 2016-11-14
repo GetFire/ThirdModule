@@ -6,14 +6,14 @@ public class Solution {
     public static void main(String[] args) {
         // Объекты Course
         //-------------------------------------------------------------------------------
-        Course[] course = new Course[4];
+        Date startDate = new Date();
+        Course[] course = new Course[6];
         course[0] = new Course("Биология", 48, "Амосов");
         course[1] = new Course("Химия", 48, "Менделеев");
         course[2] = new Course("ДПЮ", 116, "Порох");
         course[3] = new Course("Информатика", 202, "Гослинг");
         course[4] = new Course("Тайм менеджмент", 48, "Кови");
-        Date startDate = new Date();
-        Course course6 = new Course(startDate, "экономика");
+        course[5] = new Course(startDate, "экономика");
 
         //Объекты Student
         //----------------------------------------------------------------------------------

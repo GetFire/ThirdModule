@@ -12,10 +12,10 @@ public class Adder extends Arithmetic {
 // _______________________________________________________
 
 
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
 //        Adder You=new Adder();
 //        System.out.println(You.chek(12,10));
 //        System.out.println(You.arr(10,12));
 //
-//    }
+    }
 }
