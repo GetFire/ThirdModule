@@ -20,27 +20,28 @@ public class User {
 
 
     void paySalary() {
-        int summ = balance + salary;
-        setBalance(summ);
+        balance += salary;
     }
 
     double withdraw(int summ) {
-        double comission = 0;
+        double withdraw;
+        double commission;
         if (summ < 1000) {
-            comission = summ * 0.05;
+            commission = summ * 0.05;
         } else {
-            comission = summ * 0.1;
+            commission = summ * 0.1;
         }
-        return comission;
+        withdraw = summ + commission;
+
+        return withdraw;
     }
 
     void companyNameLengt() {
-        System.out.println(getCompanyName().length());
+        System.out.println(companyName.length());
     }
 
     void monthIncreaser(int addMonth) {
-        int Increase = getMonthsOfEmployment() + addMonth;
-        setMonthsOfEmployment(Increase);
+        monthsOfEmployment += addMonth;
     }
 
 
