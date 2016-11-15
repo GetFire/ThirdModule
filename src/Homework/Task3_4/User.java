@@ -32,8 +32,9 @@ public class User {
             commission = summ * 0.1;
         }
         withdraw = summ + commission;
-
-        return withdraw;
+        double bal=(double)balance;
+        bal=bal-withdraw;
+        return bal;
     }
 
     void companyNameLengt() {
